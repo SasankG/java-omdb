@@ -22,7 +22,7 @@ public class exone {
         System.out.println("Searching for: " + movieTitle);
 
         // API key
-        String key = // add your api key here;
+        String key = "trilogy";
 
         // API URL
         String url = "https://www.omdbapi.com/?t=" + movieTitle + "&plot=short&apikey=" + key;
